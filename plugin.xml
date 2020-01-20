@@ -9,7 +9,7 @@
   <issue>https://github.com/appfeel/admob-google-cordova/issues</issue>
 
   <engines>
-    <engine name="cordova" version=">=4.0.0" />
+    <engine name="cordova" version=">=9.0.0" />
   </engines>
 
   <!-- dependency id="cordova-connectivity-monitor" / -->
@@ -81,6 +81,9 @@
     <!-- Google AdMob framework -->
     <!-- pod name="Google-Mobile-Ads-SDK" /-->
     <podspec>
+      <config>
+        <source url="https://github.com/CocoaPods/Specs.git"/>
+      </config>
       <pods use-frameworks="true">
         <pod name="Google-Mobile-Ads-SDK" />
         <pod name="GoogleMobileAdsMediationMoPub" />
