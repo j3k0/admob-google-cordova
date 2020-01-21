@@ -8,9 +8,9 @@
   <repo>https://github.com/appfeel/admob-google-cordova.git</repo>
   <issue>https://github.com/appfeel/admob-google-cordova/issues</issue>
 
-  <engines>
+  <!-- engines>
     <engine name="cordova" version=">=9.0.0" />
-  </engines>
+  </engines -->
 
   <!-- dependency id="cordova-connectivity-monitor" / -->
   <!-- dependency id="cordova-play-services-version-adapter" / -->
