@@ -78,6 +78,11 @@
     <!-- header-file src="src/ios/CDVAppFeelReachability.h" />
     <source-file src="src/ios/CDVAppFeelReachability.m" / -->
 
+    <!-- legacy way of including pods (podspec seems to fail on pgb) -->
+    <framework src="GoogleMobileAdsMediationFacebook" type="podspec" spc="*" />
+    <framework src="GoogleMobileAdsMediationMoPub" type="podspec" spec="*" />
+    <framework src="Google-Mobile-Ads-SDK" type="podspec" spec="*" />
+
     <!-- Google AdMob framework -->
     <!-- pod name="Google-Mobile-Ads-SDK" /-->
     <podspec>
